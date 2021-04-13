@@ -1,0 +1,75 @@
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+
+}
+main{
+    margin-top: 35px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-left: 5%;
+    height: 100%;
+}
+main section:first-child{
+    float:left;
+    width: 200px;
+      background-color: #000000e6;
+    color: white;
+}
+form{
+    position: relative;
+    width: 100%;
+    line-height: 20px;
+    font-size: 20px;
+    height: 170px;
+}
+
+legend{
+    margin-bottom: 15px;
+}
+main section:last-child{
+    position: absolute;
+    float: right;
+    right: 500px;
+    width: 50%;
+    background-color: #000000e6;
+    color: white;
+    margin-right: -20%;
+
+}
+table {
+    width: 450px;
+    line-height: 40px;
+    text-align: center;
+}
+label{
+    float: left;
+    position: absolute;
+    width: 35px;
+    left: 0px;
+}
+
+/* table *{
+    color: gray;
+    font-size: 20px;
+    background-color: gray;
+
+} */
+body{
+    background-image: url('bk.jpg');
+    
+}
+
+fieldset {
+    /* background-color: #000000e6; */
+    width: 200%;
+    /* color: white; */
+    height: 200%;
+    text-align: center;
+    /* margin-top: 100%; */
+    margin-left: -56%;
+
+}
